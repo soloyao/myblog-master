@@ -1,0 +1,13 @@
+上线配置：
+
+    1.配置文件本地测试切换至上线环境
+    2.注释热部署
+    3.index.js中网站最后更新时间
+
+
+ 开源屏蔽(以下内容需自行填写)：
+
+    1.数据库密码、redis密码（resources\application.properties）
+    2.druid监控账户密码（resources\application.properties）
+    3.阿里云密钥（resources\application.properties）
+    4.阿里云短信发送模板（java\com\zhy\controller\GetPhoneCodeControl.java）
